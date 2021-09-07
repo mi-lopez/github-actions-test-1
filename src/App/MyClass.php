@@ -13,4 +13,9 @@ class MyClass
     {
         return $firstNumber * $secondNumber;
     }
+
+    public function divide(int $firstNumber, int $secondNumber): float
+    {
+        return $firstNumber / $secondNumber;
+    }
 }

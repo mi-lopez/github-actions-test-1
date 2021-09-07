@@ -32,4 +32,12 @@ final class MyClassTest extends TestCase
             $this->test->multiply(3,3)
         );
 	}
+
+	public function testCanDivide(): void
+	{
+		$this->assertEquals(
+			2,
+			$this->test->divide(4,2)
+		);
+	}
 }
