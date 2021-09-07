@@ -15,7 +15,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"mi-lopez\\GithhubActions\\": "src"}
+        "psr-4": {"milopez\\GithubActions\\": "src/"}
     },
     "require": {
         "php": "~7.4.14 || ^8.0"
@@ -27,7 +27,9 @@
         "phpro/grumphp": "^1.1.0",
         "phpspec/phpspec": "^6.1",
         "phpstan/phpstan": "0.12.91",
+        "php-parallel-lint/php-parallel-lint": "^1.0",
         "enlightn/security-checker": "^1.9",
-        "friendsofphp/php-cs-fixer": "^2.18"
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpunit/phpunit": "^9.5"
     }
 }
