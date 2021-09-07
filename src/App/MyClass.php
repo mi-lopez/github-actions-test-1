@@ -8,4 +8,9 @@ class MyClass
     {
         return $firstNumber + $secondNumber;
     }
+
+    public function multiply(int $firstNumber, int $secondNumber): int
+    {
+        return $firstNumber * $secondNumber;
+    }
 }
