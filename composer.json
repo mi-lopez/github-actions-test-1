@@ -1,0 +1,33 @@
+{
+    "name": "mi-lopez/github-actions-test-1",
+    "keywords": [
+        "github",
+        "github-actions",
+        "test"
+    ],
+    "description": "My Github Actions Project Test",
+    "homepage": "https://github.com/mi-lopez/github-actions-test-1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mi-lopez",
+            "homepage": "https://github.com/mi-lopez"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"mi-lopez\\GithhubActions\\": "src"}
+    },
+    "require": {
+        "php": "~7.4.14 || ^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpmd/phpmd": "^2.8",
+        "phpro/grumphp": "^1.1.0",
+        "phpspec/phpspec": "^6.1",
+        "phpstan/phpstan": "0.12.91",
+        "enlightn/security-checker": "^1.9",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    }
+}
