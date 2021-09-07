@@ -14,12 +14,16 @@
             "homepage": "https://github.com/mi-lopez"
         }
     ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests/"
+    },
     "autoload": {
         "psr-4": {"milopez\\GithubActions\\": "src/"}
     },
     "require": {
         "php": "~7.4.14 || ^8.0"
     },
+
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
