@@ -36,7 +36,7 @@ final class MyClassTest extends TestCase
 	public function testCanDivide(): void
 	{
 		$this->assertEquals(
-			8,
+			2,
 			$this->test->divide(4,2)
 		);
 	}
