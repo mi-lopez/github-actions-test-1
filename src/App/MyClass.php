@@ -20,6 +20,6 @@ class MyClass
     }
     public function substract(int $firstNumber, int $secondNumber)
     {
-        return $firstNumber + $secondNumber;
+        return $firstNumber - $secondNumber;
     }
 }
