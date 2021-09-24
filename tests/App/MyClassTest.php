@@ -40,4 +40,12 @@ final class MyClassTest extends TestCase
 			$this->test->divide(4,2)
 		);
 	}
+
+	public function testCanSubstract(): void
+	{
+		$this->assertEquals(
+			0,
+			$this->test->substract(4,4)
+		);	
+	}
 }

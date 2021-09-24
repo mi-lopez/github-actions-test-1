@@ -18,4 +18,8 @@ class MyClass
     {
         return $firstNumber / $secondNumber;
     }
+    public function substract(int $firstNumber, int $secondNumber)
+    {
+        return $firstNumber - $secondNumber;
+    }
 }
